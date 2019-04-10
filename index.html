@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>UdaciFeeds</title>
+        <title>Leitor Feed</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700">
@@ -11,26 +11,26 @@
         <link rel="stylesheet" href="css/icomoon.css">
         <link rel="stylesheet" href="css/style.css">
 
-        <link rel="stylesheet" href="jasmine/lib/jasmine-3.3.0/jasmine.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.min.css">
 
-        <script src="jasmine/lib/jasmine-3.3.0/jasmine.js"></script>
-        <script src="jasmine/lib/jasmine-3.3.0/jasmine-html.js"></script>
-        <script src="jasmine/lib/jasmine-3.3.0/boot.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine-html.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/boot.min.js"></script>
     </head>
     <body class="menu-hidden">
         <div class="header">
-            <a href="#" class="menu-icon-link">
+            <a id="menu-icon" href="#" class="menu-icon-link">
                 <i class="icon-list"></i>
             </a>
 
-            <h1 class="header-title">Feeds</h1>
+            <h1 id='header-title' class="header-title">Feeds</h1>
         </div>
 
         <div class="slide-menu">
             <ul class="feed-list"></ul>
         </div>
 
-        <div class="feed"></div>
+        <div id="feed" class="feed"></div>
 
         <script class="tpl-entry" type="text/x-handlebars-template">
             <a class="entry-link" href="{{link}}">
@@ -47,9 +47,11 @@
             </li>
         </script>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/handlebarsjs/2.0.0/handlebars.min.js"></script>
-        <script src="https://google.com/jsapi"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
+        <script src="http://google.com/jsapi"></script>
+
         <script src="js/app.js"></script>
 
         <script src="jasmine/spec/feedreader.js"></script>
