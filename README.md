@@ -8,8 +8,8 @@
   
 ## Instalar
 
-[GitHub.com](https://github.com/eneasmarques/frontend-nanodegree-feedreader) - (branch master)
-[GitHub.io](https://eneasmarques.github.io/frontend-nanodegree-feedreader)
+[GitHub.com](https://github.com/jorgequintanilha017/leitor-feed) - (branch master)
+[GitHub.io](https://github.com/jorgequintanilha017/leitor-feed)
 
 ## Instruções
 
